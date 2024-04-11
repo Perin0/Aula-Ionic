@@ -1,0 +1,12 @@
+ion-tab-bar{
+    --background: #e6e6e6;
+}
+ion-label, ion-icon{
+    color:#6d6d6d
+}
+ion-tab-button:hover{
+    ion-icon, ion-label{
+        font-weight: 700;
+        color: #161616;
+    }
+}

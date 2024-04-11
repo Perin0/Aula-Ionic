@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Kalnia:wght@641&display=swap');
+.title-container{
+  --background: #ce1a11;
+  height: 80px;
+}
+.title{
+  position: relative;
+  font-family: "Kalnia", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.8rem;
+  font-variation-settings:
+    "wdth" 100;
+  color: #feffe5;
+  margin-top: 3.5%;
+}
+.body{
+  --background: #fefffe;
+  color: #0c1618
+}
+.card{
+  height: auto;
+  width: auto;
+  --background: #fbaf00;
+  border-radius: 3%;
+  margin-top: 5%;
+}
+.card-title{
+  position: relative;
+  text-align: center;
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #0c1618;
+}
+.card-frase{
+  --background: #007cbe;
+  color: #fefffe
+}
+.mug-img{
+  position: relative;
+  margin-top: 3%;
+  margin-left: 12.5%;
+  width: 75%;
+  border-radius: 10%;
+  border: solid 2px black;
+}
+.frase{
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}

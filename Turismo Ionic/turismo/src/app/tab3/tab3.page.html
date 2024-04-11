@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Pontos Turísticos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="body">
+  <ion-card>
+    <ion-card-content>
+      <ion-list>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Sarau" src="../../assets/ecologico.jpg" />
+          </ion-thumbnail>
+          <ion-label>Parque Ecológico Municipal</ion-label>
+          <ion-button onclick="window.open('https:/maps.app.goo.gl/fRsW8DY4MyaPQDH89')">
+            <ion-icon name="location"></ion-icon>
+          </ion-button> 
+        </ion-item>
+  
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Daniel's" src="../../assets/parque.jpg" />
+          </ion-thumbnail>
+          <ion-label>Parque Olavo Ferreira de Sá</ion-label>
+          <ion-button onclick="window.open('https:/maps.app.goo.gl/awBbGaGYkR4fduC27')">
+            <ion-icon name="location"></ion-icon>
+          </ion-button>
+        </ion-item>
+  
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img alt="Bella Roma" src="../../assets/museu.webp" />
+          </ion-thumbnail>
+          <ion-label>Museu Histórico Municipal</ion-label>
+          <ion-button onclick="window.open('https:/maps.app.goo.gl/oZRR6QMAVRyGmtNr7')">
+            <ion-icon name="location"></ion-icon>
+          </ion-button>
+        </ion-item>
+  
+        <ion-item lines="none">
+          <ion-thumbnail slot="start">
+            <img alt="Fórmula Burger" src="https://turismo.ourinhos.sp.gov.br/fotos/430873d5e11ad55ebaceb2d93aae6e5c-19-11-2021-15-13-54.jpg" />
+          </ion-thumbnail>
+          <ion-label>Catedral Paróquia do Senhor Bom Jesus</ion-label>
+          <ion-button onclick="window.open('https:/maps.app.goo.gl/8xeWgBVZ9sHEGb9Q6')">
+            <ion-icon name="location"></ion-icon>
+          </ion-button>
+        </ion-item>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

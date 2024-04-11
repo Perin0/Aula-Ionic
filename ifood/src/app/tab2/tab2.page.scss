@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ion-toolbar {
+    --background: #f5f5f5;
+}
+
+ion-header {
+    --box-shadow: none !important;
+}
+
+body {
+    top: 8%;
+    background-color: #f5f5f5;
+    --overflow: hidden;
+    height: 100vh;
+}
+.inner-scroll scroll-y overscroll{
+    padding: -16px;
+}
+h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 1.30rem;
+    margin-left: 3%;
+    padding-bottom: 1%;
+}
+
+.searchbar-input {
+    --border-radius: 15px;
+    --background: #e5e5e5f5;
+    --box-shadow: none;
+    --icon-color: red;
+    color: black;
+    margin-top: 2%;
+    left: 2.5%;
+    width: 95%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 2%;
+    padding-right: 2%;
+    top: -70%;
+    grid-gap: 5px;
+    height: 50%;
+}
+
+.card1,.card2,.card3,.card4,.card5,.card6,.card7,.card8,.card9,.card10,.card11,.card12,.card13,.card14 {
+    overflow: hidden;
+    height: 54px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    line-height: 2;
+}
+.card1,.card4{
+    background-color: #005943;
+}
+.card2,.card3{
+    background-color: #ff6537;
+}
+.card6,.card8{
+    background-color: #fe7a27;
+}
+.card5,.card11{
+    background-color: #e28a24;
+}
+.card7{
+    background-color: #890118;
+}
+.card9,.card10,.card12,.card14{
+    background-color: #ea0033;
+}
+.card13{
+    background-color: #fe74a5;
+}
+.card-span{
+    position: absolute;
+    margin-left: 3%;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    z-index: 1;
+}
+
+.card-1-img{
+    position: relative;
+    height: 11vh;
+    margin-top: 2%;
+    margin-left: 55%;
+    rotate: 15deg;
+}
+.card-2-img{
+    position: relative;
+    height: 10vh;
+    margin-top: 2%;
+    margin-left: 52%;
+    rotate: 15deg;
+}
+.card-3-img{
+    position: relative;
+    height: 14vh;
+    margin-top: -4%;
+    margin-left: 52%;
+    rotate: -5deg;
+}
+.card-4-img{
+    position: relative;
+    height: 18vh;
+    margin-top: -4%;
+    margin-left: 52%;
+    rotate: -5deg;
+}
+.card-5-img{
+    position: relative;
+    height: 13vh;
+    margin-top: -4%;
+    margin-left: 45%;
+    rotate: -5deg;
+}
+.card-6-img{
+    position: relative;
+    height: 16vh;
+    margin-top: -4%;
+    margin-left: 40%;
+    rotate: -5deg;
+}
+.card-7-img{
+    position: relative;
+    height: 13vh;
+    margin-top: 4%;
+    margin-left: 48%;
+    rotate: -5deg;
+}
+.card-8-img{
+    position: relative;
+    height: 13vh;
+    margin-top: -3%;
+    margin-left: 55%;
+    rotate: -5deg;
+}
+.card-9-img{
+    position: relative;
+    height: 13vh;
+    margin-top: -3%;
+    margin-left: 50%;
+    rotate: -5deg;
+}
+.card-10-img{
+    position: relative;
+    height: 13vh;
+    margin-top: -3%;
+    margin-left: 50%;
+    rotate: -5deg;
+}
+.card-11-img{
+    position: relative;
+    height: 11vh;
+    margin-top: -3%;
+    margin-left: 50%;
+    rotate: 0deg;
+}
+.card-12-img{
+    position: relative;
+    height: 11vh;
+    margin-top: -3%;
+    margin-left: 50%;
+    rotate: 0deg;
+}
+.card-13-img{
+    position: relative;
+    height: 11vh;
+    margin-top: -6%;
+    margin-left: 58%;
+    rotate: 6deg;
+}
+.card-14-img{
+    position: relative;
+    height: 14vh;
+    margin-top: -6%;
+    margin-left: 53%;
+    rotate: 0deg;
+}
